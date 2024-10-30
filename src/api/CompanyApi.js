@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import Company from '../model/Company';
+import ApiClient from "../ApiClient.js";
+import Company from '../model/Company.js';
 
 /**
 * Company service.

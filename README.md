@@ -72,22 +72,22 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var NascarDataClient = require('nascar-data-client');
-var defaultClient = NascarDataClient.ApiClient.instance;
+import {ApiClient} from 'nascar-data-client';
+import {DriverApi} from 'nascar-data-client';
 
+var apiClient = new ApiClient();
+apiClient.basePath = "https://data.nascar.com/api"
+apiClient.defaultHeaders['Authorization'] = 'Bearer YOUR_TOKEN_HERE';
 
-var api = new NascarDataClient.AccountApi()
-var opts = { 
-  'refreshToken': "refreshToken_example" // {String} 
-};
-var callback = function(error, data, response) {
-  if (error) {
-    console.error(error);
-  } else {
-    console.log('API called successfully. Returned data: ' + data);
-  }
-};
-api.accountRefreshTokenGet(opts, callback);
+var driverApi = new DriverApi(apiClient)
+
+driverApi.driverGet({ id: 2 }, (error, data, response) => {
+    if (error) {
+      console.error("Error fetching driver:", error);
+    } else {
+      console.log("Driver data:", data);
+    }
+  });
 ```
 
 ## Documentation for API Endpoints

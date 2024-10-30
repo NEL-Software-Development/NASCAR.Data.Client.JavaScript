@@ -4,5 +4,5 @@
       "globals": ["Error", "Array"]
     }]
   ],
-  "presets": ["env", "stage-0"]
+  "presets": ["@babel/preset-env"]
 }

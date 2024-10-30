@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import RaceResult from './RaceResult';
+import ApiClient from '../ApiClient.js';
+import RaceResult from './RaceResult.js';
 
 /**
 * The RaceRunResults model module.

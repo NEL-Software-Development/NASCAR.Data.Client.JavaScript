@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import StageResult from './StageResult';
+import ApiClient from '../ApiClient.js';
+import StageResult from './StageResult.js';
 
 /**
 * The StageRunResults model module.

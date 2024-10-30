@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import OpticalTrackingUTMOffset from '../model/OpticalTrackingUTMOffset';
+import ApiClient from "../ApiClient.js";
+import OpticalTrackingUTMOffset from '../model/OpticalTrackingUTMOffset.js';
 
 /**
 * OpticalTracking service.

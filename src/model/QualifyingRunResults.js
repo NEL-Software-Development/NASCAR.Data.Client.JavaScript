@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import RunResult from './RunResult';
+import ApiClient from '../ApiClient.js';
+import RunResult from './RunResult.js';
 
 /**
 * The QualifyingRunResults model module.

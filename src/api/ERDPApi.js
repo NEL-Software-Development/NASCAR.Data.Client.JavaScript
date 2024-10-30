@@ -11,9 +11,9 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import NextGenDatapoint from '../model/NextGenDatapoint';
-import NextGenSource from '../model/NextGenSource';
+import ApiClient from "../ApiClient.js";
+import NextGenDatapoint from '../model/NextGenDatapoint.js';
+import NextGenSource from '../model/NextGenSource.js';
 
 /**
 * ERDP service.

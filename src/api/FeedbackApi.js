@@ -11,9 +11,9 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import DevNote from '../model/DevNote';
-import Feedback from '../model/Feedback';
+import ApiClient from "../ApiClient.js";
+import DevNote from '../model/DevNote.js';
+import Feedback from '../model/Feedback.js';
 
 /**
 * Feedback service.

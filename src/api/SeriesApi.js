@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import Series from '../model/Series';
+import ApiClient from "../ApiClient.js";
+import Series from '../model/Series.js';
 
 /**
 * Series service.

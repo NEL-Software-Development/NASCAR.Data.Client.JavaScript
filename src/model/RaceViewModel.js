@@ -11,19 +11,20 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import Caution from './Caution';
-import LapLeader from './LapLeader';
-import LoopStat from './LoopStat';
-import Pitstop from './Pitstop';
-import PracticeRunResults from './PracticeRunResults';
-import QualifyingRunResults from './QualifyingRunResults';
-import RaceInfraction from './RaceInfraction';
-import RaceRunResults from './RaceRunResults';
-import RunDetails from './RunDetails';
-import RunEntry from './RunEntry';
-import StageRunResults from './StageRunResults';
-import WeekendSchedule from './WeekendSchedule';
+import ApiClient from '../ApiClient.js';
+import Caution from './Caution.js';
+import LapLeader from './LapLeader.js';
+import LoopStat from './LoopStat.js';
+import Pitstop from './Pitstop.js';
+import PracticeRunResults from './PracticeRunResults.js';
+import QualifyingRunResults from './QualifyingRunResults.js';
+import RaceInfraction from './RaceInfraction.js';
+import RaceRunResults from './RaceRunResults.js';
+import RunDetails from './RunDetails.js';
+import RunEntry from './RunEntry.js';
+import StageRunResults from './StageRunResults.js';
+import WeekendSchedule from './WeekendSchedule.js';
+
 
 /**
 * The RaceViewModel model module.
