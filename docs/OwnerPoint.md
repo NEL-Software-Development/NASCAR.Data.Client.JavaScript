@@ -1,0 +1,32 @@
+# NascarDataClient.OwnerPoint
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**owner** | **String** | Owner name | [optional] 
+**vehicleNumber** | **String** | Vehicle number | [optional] 
+**position** | **Number** | Points position | [optional] 
+**points** | **Number** | Total points | [optional] 
+**playoffPoints** | **Number** | Total playoff points | [optional] 
+**playoffRank** | **Number** | Current playoff rank | [optional] 
+**deltaLeader** | **Number** | Number of points behind the leader | [optional] 
+**deltaNext** | **Number** | Number of points behind the next position | [optional] 
+**starts** | **Number** | Number of starts this season | [optional] 
+**poles** | **Number** | Number of times the pole position was earned | [optional] 
+**wins** | **Number** | Total race wins | [optional] 
+**stage1Wins** | **Number** | Stage 1 wins | [optional] 
+**stage2Wins** | **Number** | Stage 2 wins | [optional] 
+**stage3Wins** | **Number** | Stage 3 wins | [optional] 
+**stagePoints** | **Number** | Total stage points | [optional] 
+**playoffRaceWins** | **Number** | Playoff race wins | [optional] 
+**playoffStageWins** | **Number** | Playoff stage wins | [optional] 
+**pointsEarnedThisRace** | **Number** | Points earned this race | [optional] 
+**playoffPointsEarnedThisRace** | **Number** | Playoff points earned this race | [optional] 
+**stagePointsEarnedThisRace** | **Number** | Stage points earned this race | [optional] 
+**top5** | **Number** | Number of Top 5 finishes | [optional] 
+**top10** | **Number** | Number of Top 10 finishes | [optional] 
+**lapsLed** | **Number** | Total laps led | [optional] 
+**dnf** | **Number** | Number of times the vehicle did not finish the race | [optional] 
+**madePlayoffs** | **Boolean** | Whether or not the owner made the playoffs | [optional] 
+**inPlayoffs** | **Boolean** | Whether or not the owner is still in the playoffs | [optional] 
+**highestRound** | **Number** | Highest playoff round earned | [optional] 
