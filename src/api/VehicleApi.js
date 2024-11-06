@@ -11,9 +11,9 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import RaceResultSummary from '../model/RaceResultSummary';
-import VehicleDetails from '../model/VehicleDetails';
+import ApiClient from "../ApiClient.js";
+import RaceResultSummary from '../model/RaceResultSummary.js';
+import VehicleDetails from '../model/VehicleDetails.js';
 
 /**
 * Vehicle service.

@@ -11,10 +11,10 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import Flag from './Flag';
-import RunState from './RunState';
-import RunType from './RunType';
+import ApiClient from '../ApiClient.js';
+import Flag from './Flag.js';
+import RunState from './RunState.js';
+import RunType from './RunType.js';
 
 /**
 * The RunDetails model module.

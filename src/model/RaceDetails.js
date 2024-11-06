@@ -11,10 +11,10 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import RunDetails from './RunDetails';
-import RunEntry from './RunEntry';
-import WeekendSchedule from './WeekendSchedule';
+import ApiClient from '../ApiClient.js';
+import RunDetails from './RunDetails.js';
+import RunEntry from './RunEntry.js';
+import WeekendSchedule from './WeekendSchedule.js';
 
 /**
 * The RaceDetails model module.

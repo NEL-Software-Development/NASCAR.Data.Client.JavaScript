@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import RosterMember from './RosterMember';
+import ApiClient from '../ApiClient.js';
+import RosterMember from './RosterMember.js';
 
 /**
 * The TeamRoster model module.

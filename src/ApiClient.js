@@ -40,6 +40,11 @@ export default class ApiClient {
          * @type {Array.<String>}
          */
         this.authentications = {
+            'Bearer': {
+                type: 'apiKey', 
+                in: 'header',
+                name: 'Authorization'
+              },
         }
 
         /**

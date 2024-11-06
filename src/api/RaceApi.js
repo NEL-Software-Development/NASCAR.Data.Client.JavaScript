@@ -11,23 +11,23 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import Caution from '../model/Caution';
-import DisciplineUpdate from '../model/DisciplineUpdate';
-import LapLeader from '../model/LapLeader';
-import LoopStat from '../model/LoopStat';
-import Pitstop from '../model/Pitstop';
-import PracticeRunResults from '../model/PracticeRunResults';
-import QualifyingRunResults from '../model/QualifyingRunResults';
-import Race from '../model/Race';
-import RaceDetails from '../model/RaceDetails';
-import RaceInfraction from '../model/RaceInfraction';
-import RaceRunResults from '../model/RaceRunResults';
-import RaceViewModel from '../model/RaceViewModel';
-import RunEntry from '../model/RunEntry';
-import StageRunResults from '../model/StageRunResults';
-import TeamRoster from '../model/TeamRoster';
-import WeekendSchedule from '../model/WeekendSchedule';
+import ApiClient from "../ApiClient.js";
+import Caution from '../model/Caution.js';
+import DisciplineUpdate from '../model/DisciplineUpdate.js';
+import LapLeader from '../model/LapLeader.js';
+import LoopStat from '../model/LoopStat.js';
+import Pitstop from '../model/Pitstop.js';
+import PracticeRunResults from '../model/PracticeRunResults.js';
+import QualifyingRunResults from '../model/QualifyingRunResults.js';
+import Race from '../model/Race.js';
+import RaceDetails from '../model/RaceDetails.js';
+import RaceInfraction from '../model/RaceInfraction.js';
+import RaceRunResults from '../model/RaceRunResults.js';
+import RaceViewModel from '../model/RaceViewModel.js';
+import RunEntry from '../model/RunEntry.js';
+import StageRunResults from '../model/StageRunResults.js';
+import TeamRoster from '../model/TeamRoster.js';
+import WeekendSchedule from '../model/WeekendSchedule.js';
 
 /**
 * Race service.

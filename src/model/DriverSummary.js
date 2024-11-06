@@ -11,12 +11,12 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import Driver from './Driver';
-import DriverSummaryByPrincipalRaceID from './DriverSummaryByPrincipalRaceID';
-import DriverSummaryBySeason from './DriverSummaryBySeason';
-import DriverSummaryByTrack from './DriverSummaryByTrack';
-import DriverSummaryByTrackType from './DriverSummaryByTrackType';
+import ApiClient from '../ApiClient.js';
+import Driver from './Driver.js';
+import DriverSummaryByPrincipalRaceID from './DriverSummaryByPrincipalRaceID.js';
+import DriverSummaryBySeason from './DriverSummaryBySeason.js';
+import DriverSummaryByTrack from './DriverSummaryByTrack.js';
+import DriverSummaryByTrackType from './DriverSummaryByTrackType.js';
 
 /**
 * The DriverSummary model module.

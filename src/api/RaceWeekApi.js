@@ -11,9 +11,9 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import RaceWeek from '../model/RaceWeek';
-import RaceWeekDetails from '../model/RaceWeekDetails';
+import ApiClient from "../ApiClient.js";
+import RaceWeek from '../model/RaceWeek.js';
+import RaceWeekDetails from '../model/RaceWeekDetails.js';
 
 /**
 * RaceWeek service.

@@ -11,10 +11,10 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import DriverPoint from '../model/DriverPoint';
-import ManufacturerPoint from '../model/ManufacturerPoint';
-import OwnerPoint from '../model/OwnerPoint';
+import ApiClient from "../ApiClient.js";
+import DriverPoint from '../model/DriverPoint.js';
+import ManufacturerPoint from '../model/ManufacturerPoint.js';
+import OwnerPoint from '../model/OwnerPoint.js';
 
 /**
 * Points service.

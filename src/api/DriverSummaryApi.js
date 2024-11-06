@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import DriverSummary from '../model/DriverSummary';
+import ApiClient from "../ApiClient.js";
+import DriverSummary from '../model/DriverSummary.js';
 
 /**
 * DriverSummary service.

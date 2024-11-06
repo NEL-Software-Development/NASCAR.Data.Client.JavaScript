@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import TokenResponse from '../model/TokenResponse';
+import ApiClient from "../ApiClient.js";
+import TokenResponse from '../model/TokenResponse.js';
 
 /**
 * Account service.

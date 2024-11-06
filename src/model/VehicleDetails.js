@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import RaceResultSummary from './RaceResultSummary';
+import ApiClient from '../ApiClient.js';
+import RaceResultSummary from './RaceResultSummary.js';
 
 /**
 * The VehicleDetails model module.

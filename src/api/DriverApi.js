@@ -11,9 +11,9 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import Driver from '../model/Driver';
-import RaceResultSummary from '../model/RaceResultSummary';
+import ApiClient from "../ApiClient.js";
+import Driver from '../model/Driver.js';
+import RaceResultSummary from '../model/RaceResultSummary.js';
 
 /**
 * Driver service.

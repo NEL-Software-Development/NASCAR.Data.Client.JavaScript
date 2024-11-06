@@ -11,9 +11,9 @@
  *
  */
 
-import ApiClient from "../ApiClient";
-import OSSScan from '../model/OSSScan';
-import VehicleWeight from '../model/VehicleWeight';
+import ApiClient from "../ApiClient.js";
+import OSSScan from '../model/OSSScan.js';
+import VehicleWeight from '../model/VehicleWeight.js';
 
 /**
 * Inspections service.

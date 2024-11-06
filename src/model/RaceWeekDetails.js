@@ -11,8 +11,8 @@
  *
  */
 
-import ApiClient from '../ApiClient';
-import RaceDetails from './RaceDetails';
+import ApiClient from '../ApiClient.js';
+import RaceDetails from './RaceDetails.js';
 
 /**
 * The RaceWeekDetails model module.
